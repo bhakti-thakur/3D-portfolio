@@ -23,65 +23,20 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    sql,
+    postgresql,
+    python,
+    c,
+    java,
+    microsoft_dotnet,
+    csharp,
+    hacker,
+    music,
+    dogFace
 } from "../assets/icons";
 
 export const skills = [
-    {
-        imageUrl: css,
-        name: "CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
-    },
-    {
-        imageUrl: git,
-        name: "Git",
-        type: "Version Control",
-    },
-    {
-        imageUrl: github,
-        name: "GitHub",
-        type: "Version Control",
-    },
-    {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
-    },
-    {
-        imageUrl: javascript,
-        name: "JavaScript",
-        type: "Frontend",
-    },
-    {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
-    },
     {
         imageUrl: react,
         name: "React",
@@ -93,8 +48,8 @@ export const skills = [
         type: "State Management",
     },
     {
-        imageUrl: sass,
-        name: "Sass",
+        imageUrl: nextjs,
+        name: "Next.js",
         type: "Frontend",
     },
     {
@@ -103,9 +58,89 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: typescript,
-        name: "TypeScript",
+        imageUrl: sass,
+        name: "Sass",
         type: "Frontend",
+    },
+    {
+        imageUrl: mui,
+        name: "Material-UI",
+        type: "Frontend",
+    },
+    {
+        imageUrl: html,
+        name: "HTML",
+        type: "Frontend",
+    },
+    {
+        imageUrl: css,
+        name: "CSS",
+        type: "Frontend",
+    },
+    {
+        imageUrl: javascript,
+        name: "JavaScript",
+        type: "Frontend",
+    },
+    {
+        imageUrl: nodejs,
+        name: "Node.js",
+        type: "Backend",
+    },
+    {
+        imageUrl: express,
+        name: "Express",
+        type: "Backend",
+    }, 
+    {
+        imageUrl: mongodb,
+        name: "MongoDB",
+        type: "Database",
+    },
+    {
+        imageUrl: sql,
+        name: "SQL",
+        type: "Database",
+    },
+    {
+        imageUrl: postgresql,
+        name: "PostgreSQL",
+        type: "Database",
+    },
+    {
+        imageUrl: python,
+        name: "Python",
+        type: "Programming",
+    },
+    {
+        imageUrl: c,
+        name: "C++",
+        type: "Programming",
+    },
+    {
+        imageUrl: java,
+        name: "Java",
+        type: "Programming",
+    },
+    {
+        imageUrl: csharp,
+        name: "C#",
+        type: "Programming",
+    },
+    {
+        imageUrl: microsoft_dotnet,
+        name: ".NET",
+        type: "Framework",
+    },
+    {
+        imageUrl: git,
+        name: "Git",
+        type: "Version Control",
+    },
+    {
+        imageUrl: github,
+        name: "GitHub",
+        type: "Version Control",
     }
 ];
 
@@ -178,11 +213,47 @@ export const socialLinks = [
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'www.linkedin.com/in/bhakti-thakur',
+        link: 'https://www.linkedin.com/in/bhakti-thakur/',
     }
 ];
 
 export const projects = [
+    
+
+    {
+        iconUrl: music,
+        theme: 'btn-back-blue-new',
+        name: 'Drum Kit',
+        description: 'Developed a full fledged aesthetically designed mini portfolio .',
+        link: 'https://github.com/bhakti-thakur/Drum-kit',
+    },
+    {
+        iconUrl: estate,
+        theme: 'btn-back-blue-new',
+        name: 'Student Helpline',
+        description: 'Developed a web application that helps students find their nearest eateries, hangout spots , and other important places.',
+
+        link: 'https://github.com/bhakti-thakur/PBL2',
+    },
+    {
+        iconUrl: pricewise,
+        theme: 'btn-back-blue-new',
+        name: 'Tinder for dogs',
+        description: 'Developed a Frontend web application landing page for a dating site for dogs.',
+        link: 'https://github.com/bhakti-thakur/tinder-for-dogs',
+    },
+    {
+        iconUrl: snapgram,
+        theme: 'btn-back-blue-new',
+        name: '3D portfolio',
+        description: 'Developed a web application that tracks and highlights my strengths and skills',
+        link: 'https://github.com/bhakti-thakur/3D-portfolio',
+    },
+    
+];
+
+    {/* 
+
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
@@ -225,4 +296,5 @@ export const projects = [
         description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
         link: 'https://github.com/adrianhajdin/project_ai_summarizer',
     }
-];
+    
+    */}

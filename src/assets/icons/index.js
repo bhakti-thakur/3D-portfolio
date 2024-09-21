@@ -26,6 +26,26 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import sql  from './sql.png'
+import postgresql from './postgresql.svg'
+import python from './python.svg'
+import java from './java.svg'
+import c from  './c.svg'
+import microsoft_dotnet from  './microsoft_dotnet.svg'
+import csharp from  './csharp.svg'
+import hacker from   './hacker.png'
+import dogFace from  './dogFace.svg'
+import music from   './music.svg'
+
+
+
+
+
+
+
+
+
+
 
 export {
     css,
@@ -55,5 +75,15 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    sql,
+    postgresql,
+    python,
+    c,
+    java,
+    microsoft_dotnet,
+    csharp,
+    hacker,
+    dogFace,
+    music
 }

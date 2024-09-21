@@ -132,6 +132,10 @@ body:has(.card[data-color="green"]:hover) {
   background: linear-gradient(135deg, #0061ff -20%, #60efff 120%);
 }
 
+.block-container .btn-back-blue-new {
+  background: linear-gradient(135deg, #318eff 120%, #0042ad -20%);
+}
+
 .block-container .btn-back-orange {
   background: linear-gradient(135deg, #ff0f7b -20%, #f89b29 120%);
 }

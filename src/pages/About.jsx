@@ -38,6 +38,9 @@ const About = () => {
           </div>
       </div>
 
+      
+{/* 
+
       <div className='py-16 flex flex-col'>
         <h3 className='subhead-text'>
           Work Experiences
@@ -49,6 +52,7 @@ const About = () => {
           </p>
         </div>
         
+
         <div className=' mt-12 flex flex-wrap gap-12'>
             <VerticalTimeline>
               {experiences.map((experience) => (
@@ -91,8 +95,12 @@ const About = () => {
               ))}
             </VerticalTimeline>
           </div>
+          
+
 
       </div>
+
+      */}
 
       <hr className='border-slate-200' />
       <CTA />
